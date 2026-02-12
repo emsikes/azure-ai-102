@@ -1,0 +1,5 @@
+POST https://ai-102-cv.cognitiveservices.azure.com/computervision/imageanalysis:analyze?features=caption&model-version=latest&language=en&api-version=2024-02-01
+Content-Type: application/octet-stream
+Ocp-Apim-Subscription-Key: $AZURE_VISION_KEY
+
+< /SD.png
